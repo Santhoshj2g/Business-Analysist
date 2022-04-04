@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#LDX-11] UI Design - Operations Tab UI </title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.itservices.msu.edu/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LDX-11]&nbsp;<a href="https://jira.itservices.msu.edu/browse/LDX-11">UI Design - Operations Tab UI </a>
+            <span class="subText">
+               Created: 24/Aug/21                   &nbsp;Updated: 11/Nov/21
+
+                                                    &nbsp;Resolved: 11/Nov/21
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Closed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.itservices.msu.edu/secure/BrowseProject.jspa?id=24545">PJ 2289 Re-write LDX Application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="f0102998" id="word_reporter_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="jack1363" id="word_assignee_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-182571-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Approved, Milestone-1                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira.itservices.msu.edu/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="PDF File" role="presentation">
+                    1. Divisional Structure Operational Tab.pdf &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira.itservices.msu.edu/images/icons/attach/excel.gif" height="16" width="16" border="0" alt="Microsoft Word" role="presentation">
+                    Hybrid Structure Out Of Scope.xlsx &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira.itservices.msu.edu/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    image-2021-09-24-13-34-32-470.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-31">
+                     LDX-31                 </a>
+            </td>
+            <td>
+                Staff Planning Phase (Functional &amp; Di...
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-40">
+                     LDX-40                 </a>
+            </td>
+            <td>
+                Icons for Functional Structure
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-41">
+                     LDX-41                 </a>
+            </td>
+            <td>
+                Hybrid Team Structure - Out of Scope
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-20">
+                     LDX-20                 </a>
+            </td>
+            <td>
+                UI Designs &amp; Animation
+            </td>
+            <td>
+                Open
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>ITSD Link:</b></td>
+                <td id="customfield_11906-182571-value" class="value" bgcolor="#ffffff" width="80%">
+        none
+
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Benefit:</b></td>
+<td class='confluenceTd'>As a Student, to understand the look and feel of the operation tab.</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Users:</b></td>
+<td class='confluenceTd'>Student</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Acceptance Criteria:</b></td>
+<td class='confluenceTd'>1.      Student will be able to View 16*16 matrix of cells. Divided into four region FW Ops, MW Ops, ME Ops, FE Ops and also South (1-8) &amp; North (9-16).<br/>
+ 2.      Base RPA is located below the Row 1.<br/>
+ <font color="#172b4d"><b>3.  Student will be able to move the Base RPA *to the squares of their choice in anywhere on the OPS Grid.</b></font><br/>
+ 4.      Student will be able to move the Base RPA <font color="#0747a6"><b>to the squares of their choice in anywhere on the OPS Grid.</b></font><br/>
+ 5.      Student will be able to move the Base RPA<font color="#0747a6"> <b>to the squares of their choice in anywhere on the OPS Grid.</b></font><br/>
+ <br/>
+ 7.      Student will be able to view four Base RPA <span class="error">&#91;Strike, Escort, Refuel and Recon&#93;</span> in each region. ** <br/>
+ <b>8.    Student will able to drag &amp; drop one of them/all Base <span class="error">&#91;Escort, Strike, Recon, Refuel&#93;</span> RPA’s *<font color="#0747a6">to the squares of their choice in anywhere on the OPS Grid.</font></b><br/>
+ </td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Description</b> </td>
+<td class='confluenceTd'><b>Ø</b>  The Operation Tab will consist of 16*16 matrix which is divided into four region viz.  FW Ops, MW Ops, ME Ops, FE Ops<br/>
+ <b>Ø</b>  Each region has one set of Base RPA.<br/>
+ <b>Ø</b>  Base RPA consist of Strike, Escort, Refuel and Recon in each region.<br/>
+  </td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><font color="#172b4d"><b>This is only for Divisional structure. Will be different display for Functional and Hybrid.</b></font><br/>
+  <br/>
+  <br/>
+  |</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-198382"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-198382"><td bgcolor="#ffffff">
+            <p>LDX 11 makes it sound erroneously like the team members cannot send their assets outside their own swim lane which is incorrect if that is what is says…..</p>
+        </td></tr>
+                <tr id="comment-header-199507"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199507"><td bgcolor="#ffffff">
+            <p>As per above comments, story updated. Please review &amp; Approve.</p>
+        </td></tr>
+                <tr id="comment-header-199636"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199636"><td bgcolor="#ffffff">
+            <p>Updates -  3 through 9 in Acceptance criteria section. -</p>
+
+<p>Approved.</p>
+        </td></tr>
+                <tr id="comment-header-199668"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199668"><td bgcolor="#ffffff">
+            <p>LDX 11 makes it sound erroneously like the team members cannot send their assets outside their own swim lane which is incorrect if that is what is says…..</p>
+        </td></tr>
+                <tr id="comment-header-199683"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199683"><td bgcolor="#ffffff">
+            <p><b>Functional Structure</b> covered as part of <a href="https://jira.itservices.msu.edu/browse/LDX-31" title="Staff Planning Phase (Functional &amp; Divisional Structure) with Timer" class="issue-link" data-issue-key="LDX-31">LDX-31</a> &amp; <a href="https://jira.itservices.msu.edu/browse/LDX-40" title="Icons for Functional Structure" class="issue-link" data-issue-key="LDX-40">LDX-40</a> which is linked in this story.</p>
+
+<p> </p>
+
+<p><b>Hybrid Structure</b> - PFA, Clarification Sheet; Refer Row No:54</p>
+
+<p>Based on clarification log received E-Mail dated: Sat 11-09-2021 01:47.No Development required for hybrid Structure for more than 12 member team.   <span class="image-wrap" style=""><img src="https://jira.itservices.msu.edu/secure/attachment/70859/70859_image-2021-09-24-13-34-32-470.png" height="39" width="434" style="border: 0px solid black" /></span></p>
+
+<p>We tracking this as part of <a href="https://jira.itservices.msu.edu/browse/LDX-41" title="Hybrid Team Structure - Out of Scope" class="issue-link" data-issue-key="LDX-41">LDX-41</a> which is linked here.</p>
+
+<p> </p>
+
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-203494"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">28/Oct/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-203494"><td bgcolor="#ffffff">
+            <ul>
+	<li>Point 6 is duplicate . Hence strike out.</li>
+	<li><b>Lakshita Comments  --</b> An Ops player (managing Ops of different regions) will be in a functional structure. Below note says this user story is for Divisional structure. Every student (except commander) should have Ops of their respective regions to drag &amp; drop anywhere on grid. <b>Santhosh Comments</b> Changed the text into Student instead of Operational Player.</li>
+	<li>Point 9 is duplicate. Hence strike out.</li>
+</ul>
+
+        </td></tr>
+                <tr id="comment-header-204687"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Nov/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-204687"><td bgcolor="#ffffff">
+            <p>Steve approved via mail dated Tue 09-11-2021 03:15</p>
+        </td></tr>
+                <tr id="comment-header-205089"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">11/Nov/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-205089"><td bgcolor="#ffffff">
+            <p>Milestone-1 sign-off completed, moving this story to Done status. </p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 04 05:29:19 EDT 2022 by Santhosh Madhesan using Jira 8.11.0#811001-sha1:80088f01d75d98b126dbf4f3763c1b8161d5db6b.
+
+</body>
+</html>

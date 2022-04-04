@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#LDX-12] UI Design - Operations Tab - Opportunities &amp; Threats  </title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.itservices.msu.edu/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LDX-12]&nbsp;<a href="https://jira.itservices.msu.edu/browse/LDX-12">UI Design - Operations Tab - Opportunities &amp; Threats  </a>
+            <span class="subText">
+               Created: 24/Aug/21                   &nbsp;Updated: 11/Nov/21
+
+                                                    &nbsp;Resolved: 11/Nov/21
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Closed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.itservices.msu.edu/secure/BrowseProject.jspa?id=24545">PJ 2289 Re-write LDX Application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="f0102998" id="word_reporter_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="jack1363" id="word_assignee_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-182572-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Approved, Milestone-1                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira.itservices.msu.edu/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="PDF File" role="presentation">
+                    1. Divisional Structure Operational Tab.pdf &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira.itservices.msu.edu/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File" role="presentation">
+                    Fw Action Required Clarifications needed for HTC_1989686084.eml &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-20">
+                     LDX-20                 </a>
+            </td>
+            <td>
+                UI Designs &amp; Animation
+            </td>
+            <td>
+                Open
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>ITSD Link:</b></td>
+                <td id="customfield_11906-182572-value" class="value" bgcolor="#ffffff" width="80%">
+        none
+
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Benefit:</b></td>
+<td class='confluenceTd'>As a Student, to understand the look and feel of the Opportunities &amp; Threats. </td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Users:</b></td>
+<td class='confluenceTd'>Student</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Acceptance Criteria:</b></td>
+<td class='confluenceTd'>1. Student is able to view <b>Opportunities</b>, <b>Threats</b> and <b>Unknown Targets.</b><br/>
+ 2. Student is able to view current phase <b>Switch to light mode, <del>Open Game Rule</del> <font color="#ff8b00"><ins><em>&lt;&lt; – Not in wireframe V2. It was there on top right in previous version of wireframe</em></ins></font>, STAFF PLANNING,  TIME LEFT , Team score</b> and <b>Round</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Description</b> </td>
+<td class='confluenceTd'> <br/>
+ Ø  Player will be able to view below items in the right section of the Grid.<br/>
+  
+<ul>
+	<li>Switch to light mode</li>
+	<li><del>Open Game Rule</del></li>
+	<li>STAFF PLANNING phase</li>
+	<li>TIME LEFT – Shows time remaining for staff Planning phase</li>
+	<li>TEAM SCORE</li>
+	<li>ROUND – Shows current round</li>
+	<li>Opportunities</li>
+	<li>It is divided into Large and Small Opportunities                </li>
+	<li>Large Opportunities <br/>
+ ·                          <b>Nuke <span class="error">&#91;Fixed Target, 2 Strike, 16 Points&#93;</span></b><br/>
+                            <b>Biobus <span class="error">&#91;Mobile Target, 2 Strike, 16 Points&#93;</span></b></li>
+	<li>Small Opportunities<br/>
+                            <b>Dish <span class="error">&#91;Fixed Target, 1 Strike, 04 Points&#93;</span></b><br/>
+                            <b>Car bomb <span class="error">&#91;Mobile Target, 1 Strike, 04 Points&#93;</span></b></li>
+	<li>Threats</li>
+	<li>It is divided into Large and Small Threats</li>
+	<li>Large Threats<br/>
+                            <b>Missile <span class="error">&#91;Fixed Target, 2 Escorts, 04 Points&#93;</span></b><br/>
+                            <b>Tank <span class="error">&#91;Mobile Target, 2 Escorts, 04 Points&#93;</span></b></li>
+	<li>Small Threats<br/>
+                            <b>Rocket <span class="error">&#91;Fixed Target, 1 Escort, 02 Points&#93;</span></b><br/>
+                            <b>Stinger <span class="error">&#91;Mobile Target, 1 Escort, 02 Points&#93;</span></b></li>
+	<li>Unknown Targets.<br/>
+  </li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'> </td>
+<td class='confluenceTd'> </td>
+</tr>
+</tbody></table>
+</div>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-196728"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Aug/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-196728"><td bgcolor="#ffffff">
+            <p>Based on discussion with offshore Technical Team, Deepak &amp; Chiranjeevi only light mode will be part of milestone one.</p>
+
+<p>Dark mode will be part of upcoming milestones &amp; tracked as separate story.</p>
+        </td></tr>
+                <tr id="comment-header-198390"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-198390"><td bgcolor="#ffffff">
+            <p>Approved 13-Sept-21</p>
+        </td></tr>
+                <tr id="comment-header-198441"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">14/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-198441"><td bgcolor="#ffffff">
+            <p>As per the approved Wireframe, game rule has been removed. </p>
+        </td></tr>
+                <tr id="comment-header-199642"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199642"><td bgcolor="#ffffff">
+            <p>Questions about "OPen Game rule in Acceptance criteria section</p>
+
+<p>Approved</p>
+        </td></tr>
+                <tr id="comment-header-199686"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199686"><td bgcolor="#ffffff">
+            <p>Attached New Wireframe without Game Rule</p>
+        </td></tr>
+                <tr id="comment-header-199785"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199785"><td bgcolor="#ffffff">
+            <p>Approved</p>
+        </td></tr>
+                <tr id="comment-header-199912"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199912"><td bgcolor="#ffffff">
+            <p>Agreement to keep these in progress until the UAT complete.</p>
+        </td></tr>
+                <tr id="comment-header-205091"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">11/Nov/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-205091"><td bgcolor="#ffffff">
+            <p>Milestone-1 sign-off is completed, moving this story to Done status. </p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 04 05:29:31 EDT 2022 by Santhosh Madhesan using Jira 8.11.0#811001-sha1:80088f01d75d98b126dbf4f3763c1b8161d5db6b.
+
+</body>
+</html>

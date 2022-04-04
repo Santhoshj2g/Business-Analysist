@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#LDX-17] Animations - Attacking a target</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.itservices.msu.edu/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LDX-17]&nbsp;<a href="https://jira.itservices.msu.edu/browse/LDX-17">Animations - Attacking a target</a>
+            <span class="subText">
+               Created: 24/Aug/21                   &nbsp;Updated: 09/Nov/21
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.itservices.msu.edu/secure/BrowseProject.jspa?id=24545">PJ 2289 Re-write LDX Application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="f0102998" id="word_reporter_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="jack1363" id="word_assignee_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-182580-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Approved, Milestone-1                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-36">
+                     LDX-36                 </a>
+            </td>
+            <td>
+                Functionalities of attacking a target...
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira.itservices.msu.edu/browse/LDX-20">
+                     LDX-20                 </a>
+            </td>
+            <td>
+                UI Designs &amp; Animation
+            </td>
+            <td>
+                Open
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>ITSD Link:</b></td>
+                <td id="customfield_11906-182580-value" class="value" bgcolor="#ffffff" width="80%">
+        none
+
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Benefit:</b></td>
+<td class='confluenceTd'>Student will be view Animations of attacking a target</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Users:</b></td>
+<td class='confluenceTd'>Student</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Acceptance Criteria:</b></td>
+<td class='confluenceTd'>1.      Student will be able to view the either/all Escort/Strike RPA flying into the grid &amp; destroying the target if it is found in the square.<br/>
+ 2.      Student will be able to view the either/all Escort/Strike RPA flying into the northern region &amp; destroying the target if it is found in the square which will accompanying with Refuel<br/>
+ 3.      Student will be able to view the either/all Escort/Strike/Recon RPA flying into the northern region &amp; fly back over row 8.<span class="error">&#91;without Refuel&#93;</span>.<br/>
+ 4.      Student will be able to view the Recon RPA flying into the northern region &amp; reveal any targets which will accompanying with Refuel. Also, it will reveal target in region even at and below row 8.<br/>
+ 5.      Student will be able to view the Refuel flying into the grid come back without doing anything.<br/>
+ 6.      Student will be able to view all of Escort, Strike, Recon, Refuel RPA flying into the grid &amp; destroying the target.</td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Description</b> </td>
+<td class='confluenceTd'><ul>
+	<li>Student will be able to view the either/all Escort/Strike RPA flying into the grid &amp; destroying the target if it is found in the square.</li>
+	<li>Student will be able to view the either/all Escort/Strike RPA flying into the northern region &amp; destroying the target if it is found in the square which will accompanying with Refuel.</li>
+	<li>Student will be able to view the either/all Escort/Strike/Recon RPA flying into the northern region &amp; fly back over row 8.<span class="error">&#91;without Refuel&#93;</span>.</li>
+	<li>Student will be able to view the Recon RPA flying into the northern region &amp; reveal any targets which will accompanying with Refuel. Also, it will reveal target in region even at and below row 8.</li>
+	<li>Student will be able to view the Refuel flying into the grid come back without doing anything.</li>
+	<li>Student will be able to view all of Escort, Strike, Recon, Refuel RPA flying into the grid &amp; destroying the target.</li>
+	<li>Student will be able to view the Recon RPA flying into the grid &amp; reveal any targets located in a below square.
+	<ul>
+		<li>Current square</li>
+		<li>Above the square     </li>
+		<li>Below the square. </li>
+	</ul>
+	</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-198387"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-198387"><td bgcolor="#ffffff">
+            <p>LDX 17 says the player can “view the RPA and see what is revealed and destroying the target” but it does not seem to recognize that the RPA might have to fly back if not refled and that the asset – not just the target – can get destroyed…..</p>
+        </td></tr>
+                <tr id="comment-header-199506"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199506"><td bgcolor="#ffffff">
+            <p><a href="https://jira.itservices.msu.edu/browse/LDX-17" title="Animations - Attacking a target" class="issue-link" data-issue-key="LDX-17">LDX-17</a> is just a UI Design Story to explain the Wireframe.</p>
+
+<p>Please refer linked User story <a href="https://jira.itservices.msu.edu/browse/LDX-36" title="Functionalities of attacking a target - Execution Stage" class="issue-link" data-issue-key="LDX-36">LDX-36</a> for functionalities. </p>
+        </td></tr>
+                <tr id="comment-header-199511"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199511"><td bgcolor="#ffffff">
+            <p>As per above comments, story updated. Please review &amp; Approve.</p>
+        </td></tr>
+                <tr id="comment-header-199663"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199663"><td bgcolor="#ffffff">
+            <p><a href="https://jira.itservices.msu.edu/browse/LDX-17" title="Animations - Attacking a target" class="issue-link" data-issue-key="LDX-17">LDX-17</a> says the player can “view the RPA and see what is revealed and destroying the target” but it does not seem to recognize that the RPA might have to fly back if not reflected and that the asset – not just the target – can get destroyed…..</p>
+
+<p> <br/>
+I believe in the same place the Staff Planning and Commander Planning words were visible, during this phase they state “Execution Phase”.  That way it is clear from looking at the screen which of the five phases everyone is.</p>
+        </td></tr>
+                <tr id="comment-header-199664"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199664"><td bgcolor="#ffffff">
+            <p>Not all RPAs will destroy something when they fly to grid. Ones in north without Refuel will come back. Some will get shot down when square has a threat and RPAs sent to it aren’t enough/right.</p>
+        </td></tr>
+                <tr id="comment-header-199710"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Sep/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-199710"><td bgcolor="#ffffff">
+            <p>Covered the above comments. Please review &amp; Approve.</p>
+        </td></tr>
+                <tr id="comment-header-203497"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">28/Oct/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-203497"><td bgcolor="#ffffff">
+            <p>Updated as per Lakshita Comments. </p>
+        </td></tr>
+                <tr id="comment-header-204674"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="jack1363" id="word_commented_jack1363" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=jack1363">Steven Jackson</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Nov/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-204674"><td bgcolor="#ffffff">
+            <p><font color="#172b4d">Overall it’s a Design story. To understand the look and feel of the Opportunities &amp; Threats in COP Tab</font></p>
+
+<p><font color="#ff8b00">Lakshita Comments -</font><font color="#172b4d"> This piece of text clarifies we are still in Staff Planning but discussing what commander sees or can do in that phase. I was confused earlier whether we are talking about Commander Tab during Commander Planning phase or Staff Planning phase. </font><font color="#ff8b00">Santhosh comments -</font><font color="#172b4d"> Functionalities about COP explained in linked story <font color="#0052cc"></font>LDX-23</font><font color="#0052cc"><a href="https://jira.itservices.msu.edu/browse/LDX-24" title="Vice Commander moves the opportunities, Target &amp; unknown Target in COP Grid" class="issue-link" data-issue-key="LDX-24">LDX-24</a></font><font color="#0052cc"><a href="https://jira.itservices.msu.edu/browse/LDX-25" title="Different Phases of Game " class="issue-link" data-issue-key="LDX-25">LDX-25</a></font> <font color="#0052cc"><a href="https://jira.itservices.msu.edu/browse/LDX-35" title="Commander Planning Phase with Timer" class="issue-link" data-issue-key="LDX-35">LDX-35</a></font>, <font color="#0052cc"><a href="https://jira.itservices.msu.edu/browse/LDX-58" title="Roles &amp; Privilege&#39;s" class="issue-link" data-issue-key="LDX-58">LDX-58</a></font><font color=""></font></p>
+
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-204690"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="f0102998" id="word_commented_f0102998" href="https://jira.itservices.msu.edu/secure/ViewProfile.jspa?name=f0102998">Santhosh Madhesan</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Nov/21</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-204690"><td bgcolor="#ffffff">
+            <p>Steve approved via mail dated Tue 09-11-2021 03:15</p>
+        </td></tr>
+            </table>
+Generated at Mon Apr 04 05:30:41 EDT 2022 by Santhosh Madhesan using Jira 8.11.0#811001-sha1:80088f01d75d98b126dbf4f3763c1b8161d5db6b.
+
+</body>
+</html>
